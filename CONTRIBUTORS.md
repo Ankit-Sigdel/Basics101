@@ -6,3 +6,4 @@ Add your name in the list below.
 - Sabin Ranabhat
 - Saksham Gyawali
 - Jasmine Shrestha
+- Riddham Acharya
