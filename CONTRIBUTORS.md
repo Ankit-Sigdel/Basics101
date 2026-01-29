@@ -3,6 +3,7 @@
 Add your name in the list below.
 
 - Neer Aryan Bhatta
+- Pratish Chaudhary
 - Sabin Ranabhat
 - Saksham Gyawali
 - Sakshyam Timsina
