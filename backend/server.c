@@ -57,15 +57,16 @@ int main() {
         int client = wait_for_client(server);
         read_request(client, buffer, sizeof(buffer));
 
-        int a = 0, b = 0;
+        int a = 0, b = 0, c = 0;
         if (strstr(buffer, "/add")) {
             sscanf(strstr(buffer, "a="), "a=%d", &a);
             sscanf(strstr(buffer, "b="), "b=%d", &b);
+            sscanf(strstr(buffer, "c="), "c=%d", &c);
         }
 
-        int result = a + b;
+        int result = a + b + c;
 
-        printf("[AWS] Calculated: %d + %d = %d\n", a, b, result);
+        printf("[AWS] Calculated: %d + %d + %d = %d\n", a, b, c, result);
         send_response(client, result);
 
         close(client);
