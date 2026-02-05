@@ -11,3 +11,4 @@ Add your name in the list below.
 - Jasmine Shrestha
 - Riddham Acharya
 - Sudarshan Rijal
+- Ankit Sigdel
